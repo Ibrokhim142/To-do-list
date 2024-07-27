@@ -1,0 +1,35 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ee5f5f;
+  transition: background-color 0.3s ease;
+  
+}
+
+.task-item.completed {
+  background-color: #1eb61e;
+}
+
+.task-item .ant-typography {
+  flex-grow: 1;
+}
+
+.task-item .ant-space {
+  flex-shrink: 0;
+}
+.delete-button{
+  background-color: aqua;
+}
+.delete-button:hover{
+  background-color: rgb(141, 224, 173);
+  cursor: pointer;
+
+}
+.edit{
+  background-color:rgb(39, 6, 230);
+  color: #ccc;
+}
